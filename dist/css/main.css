@@ -498,7 +498,7 @@ a:focus {
     float: left;
     margin-right: 0; } }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 375px) {
   .tabs {
     float: none; }
     .tabs__item {

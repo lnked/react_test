@@ -375,10 +375,10 @@ c=m+o(s,g),v+=u(s,c,n,r);else{var y=p(e);if(y){var C,b=y.call(e);if(y!==e.entrie
 						$('.js-scroll-tab').data('jsp').destroy();
 					}
 
-					if ($(window).width() > 340)
+					if ($(window).width() > 375)
 					{
 						this.changeBox($('#selected-panel').find('.person').length);
-						$.app.scroll.init('.js-scroll-tab', true, 340);
+						$.app.scroll.init('.js-scroll-tab', true, 375);
 					}
 				},
 
@@ -390,10 +390,10 @@ c=m+o(s,g),v+=u(s,c,n,r);else{var y=p(e);if(y){var C,b=y.call(e);if(y!==e.entrie
 						if (!throttleTimeout) {
 							throttleTimeout = setTimeout(function() {
 								
-								if (typeof $('.js-scroll-tab').data('jsp') == 'undefined' && $(window).width() > 340)
+								if (typeof $('.js-scroll-tab').data('jsp') == 'undefined' && $(window).width() > 375)
 								{
 									console.log("init");
-									$.app.scroll.init('.js-scroll-tab', true, 340);
+									$.app.scroll.init('.js-scroll-tab', true, 375);
 								}
 								
 								throttleTimeout = null;
