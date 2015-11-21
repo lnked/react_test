@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px) {
+	.layout-header {
+		height: auto;
+
+		&__logo {
+		    position: relative;
+		    left: auto;
+		    top: auto;
+    		float: left;
+		}
+	}
+
+	.tabs {
+		float: left;
+		margin-right: 0;
+	}
+}

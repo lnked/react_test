@@ -1,0 +1,22 @@
+.layout-header {
+	height: 4rem;
+	overflow: hidden;
+	background-color: #e56d48;
+
+	&__wrapper {
+		padding: 0 15px;
+		position: relative;
+	}
+
+	&__logo {
+		position: absolute;
+		left: 20px;
+		top: 0;
+		color: #fff;
+		font-size: 1.8rem;
+		font-weight: 400;
+		line-height: 4rem;
+		font-family: $fontCandara;
+		text-transform: uppercase;
+	}
+}

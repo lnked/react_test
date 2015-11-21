@@ -1,0 +1,39 @@
+[
+	{
+		"winner": true,
+		"stand": true,
+		"place": 1,
+		"star": "gold",
+		"name": "Valentina Stepanova",
+		"avatar": "./images/4.jpg",
+		"score": "100000"
+	},
+	{
+		"stand": true,
+		"place": 2,
+		"star": "silver",
+		"name": "Kylie Pena",
+		"avatar": "./images/7.jpg",
+		"score": "999"
+	},
+	{
+		"stand": true,
+		"place": 3,
+		"star": "bronze",
+		"name": "Kevin Hamilton",
+		"avatar": "./images/5.jpg",
+		"score": "888"
+	},
+	{
+		"place": 4,
+		"name": "Kevin Hamilton",
+		"avatar": "./images/3.jpg",
+		"score": "111"
+	},
+	{
+		"place": 5,
+		"name": "Marion Roberts",
+		"avatar": "./images/7.jpg",
+		"score": "100000"
+	}
+]

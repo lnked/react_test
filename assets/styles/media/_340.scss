@@ -1,0 +1,64 @@
+@media only screen and (max-width: 340px) {
+	.tabs {
+		float: none;
+
+		&__item {
+			width: 100%;
+			clear: both;
+			display: block;
+			border-bottom: 1px solid #f9ddd4;
+			
+			&:last-child {
+				border-bottom: 0;
+			}
+
+			&:before {
+				display: none;
+			}
+		}
+
+		&__panel {
+			width: 100% !important;
+			overflow: auto;
+			height: auto;
+		}
+	}
+
+	.person {
+		width: auto;
+		padding: 1rem 1rem 3rem;
+		height: auto;
+		position: relative;
+		margin-right: 0;
+		margin-bottom: 1px;
+		float: none;
+		clear: both;
+		
+		&__star {
+			left: 7rem;
+			top: 0.5rem;
+		}
+
+		&__place {
+			right: 1px;
+			left: auto;
+		}
+
+		&__shadow {
+			right: auto;
+			left: 7px;
+		}
+
+		&__avatar {
+			float: left;
+			margin: 0;
+		}
+
+		&__name {
+			line-height: 7.2rem;
+		    padding: 0;
+		    margin-left: 90px;
+		    text-align: left;
+		}
+	}
+}

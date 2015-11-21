@@ -1,0 +1,77 @@
+$sandwichAnimate: .2s;
+$sandwichBackground: #fff;
+$sandwichBackgroundActive: #fff;
+
+.sandwich {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 9999;
+
+    &__layer {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-top: -1px;
+        background-color: $sandwichBackground;
+        font-size: 0px;
+        -webkit-touch-callout: none;
+        user-select: none;
+        transition: background-color $sandwichAnimate;
+
+        &:before,
+        &:after {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            background-color: $sandwichBackground;
+            content: '';
+            transition: transform $sandwichAnimate, background-color $sandwichAnimate;
+        }
+
+        &:before {
+            transform: translateY(-250%);
+        }
+
+        &:after {
+            transform: translateY(250%);
+        }
+    }
+
+    &.open {
+
+        .sandwich__layer {
+            background-color: transparent;
+
+            &:before, &:after {
+                background-color: $sandwichBackgroundActive;
+            }
+
+            &:before {
+                transform: translateY(0) rotate(45deg);
+            }
+
+            &:after {
+                transform: translateY(0) rotate(-45deg);
+            }
+        }
+    }
+}
+
+.page-open {
+    overflow: hidden;
+    
+    .header {
+        transform: translate3d(0, 0, 0);
+    }
+
+}

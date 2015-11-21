@@ -1,0 +1,51 @@
+.tabs {
+	clear: both;
+	float: right;
+	font-size: 0;
+	margin-right: 4.5rem;
+	
+	&__item {
+		@extend .inline;
+		
+		&:before {
+			width: 1px;
+			height: 17px;
+			content: "";
+			margin: 11px 18px 0;
+			background-color: #f9ddd4;
+			@extend .inline;
+		}
+
+		&:first-child:before {
+			display: none;
+		}
+
+		&__tab {
+			color: #000;
+			font-size: 1.4rem;
+			font-weight: 400;
+			line-height: 4rem;
+			text-decoration: none;
+			text-transform: uppercase;
+			cursor: pointer;
+
+			&.active {
+				cursor: default;
+				color: #fff;
+			}
+		}
+	}
+	
+	&__content {
+		width: 100%;
+		position: relative;
+	    overflow-y: hidden;
+	    overflow-x: scroll;
+	}
+
+	&__panel {
+		padding-bottom: 5px;
+		height: 15.2rem;
+		overflow: hidden;
+	}
+}

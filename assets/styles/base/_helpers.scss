@@ -1,0 +1,65 @@
+::-moz-selection, ::selection, ::-o-selection, ::-ms-selection, ::-webkit-selection {
+    color: $selectcolor;
+    background-color: $selectBackground;
+    text-shadow: none;
+}
+
+.clearfix {
+    zoom: 1; // For IE 6/7 (trigger hasLayout)
+
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.inner {
+    width: 100%;
+    display: table;
+
+    &:after {
+        width: 100%;
+        display: block;
+        content: ' ';
+        clear: both;
+    }
+}
+
+* html .inner {
+    margin-left: -3px;
+}
+
+.image {
+	font: 0/0 a;
+	border: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.vmcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.disable-hover,
+.disable-hover * {
+    pointer-events: none !important;
+}
+
+a:focus {
+    outline: 0;
+}

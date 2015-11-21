@@ -1,0 +1,50 @@
+.navigation {
+	width: 24rem;
+	height: 100%;
+	max-width: 100%;
+	max-height: 171px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-right: 14px;
+	z-index: 1000;
+	border-left: 1px solid #000;
+	background-color: #fff;
+	transform: translate3d(100%, 0, 0);
+    transition: transform $time, opacity $time;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	&.open {
+		transform: translate3d(0, 0, 0);
+	}
+
+	&__list {
+		width: 100%;
+	}
+	
+	&__item {
+		clear: both;
+		border-bottom: 1px solid #a2a1a3;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	&__link {
+		padding: 8px 16px;
+		display: block;
+		color: #99999a;
+		font-family: 'Helvetica Neue';
+		font-size: 1.8rem;
+		font-weight: 300;
+		line-height: 1.5rem;
+		text-transform: uppercase;
+		text-decoration: none;
+
+		&.current {
+			color: #e56d48;
+		}
+	}
+}
