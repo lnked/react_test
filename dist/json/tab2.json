@@ -1,0 +1,75 @@
+[
+	{
+		"winner": true,
+		"stand": true,
+		"place": 1,
+		"star": "gold",
+		"name": "Valentina Stepanova",
+		"avatar": "./images/3.jpg",
+		"score": "100000"
+	},
+	{
+		"stand": true,
+		"place": 2,
+		"star": "silver",
+		"name": "Kylie Pena",
+		"avatar": "./images/1.jpg",
+		"score": "999"
+	},
+	{
+		"stand": true,
+		"place": 3,
+		"star": "bronze",
+		"name": "Kevin Hamilton",
+		"avatar": "./images/4.jpg",
+		"score": "888"
+	},
+	{
+		"place": 4,
+		"name": "Melanie Lynch",
+		"avatar": "./images/6.jpg",
+		"score": "777"
+	},
+	{
+		"place": 5,
+		"name": "Mary Jones",
+		"avatar": "./images/5.jpg",
+		"score": "666"
+	},
+	{
+		"place": 6,
+		"name": "Emily Reid",
+		"avatar": "./images/6.jpg",
+		"score": "555"
+	},
+	{
+		"place": 7,
+		"name": "Marion Roberts",
+		"avatar": "./images/7.jpg",
+		"score": "444"
+	},
+	{
+		"place": 8,
+		"name": "Valentina Stepanova",
+		"avatar": "./images/1.jpg",
+		"score": "333"
+	},
+	{
+		"place": 9,
+		"name": "Kylie Pena",
+		"avatar": "./images/2.jpg",
+		"score": "222"
+	},
+	{
+		"place": 10,
+		"name": "Kevin Hamilton",
+		"avatar": "./images/3.jpg",
+		"score": "111"
+	},
+	{
+		"place": 11,
+		"name": "Marion Roberts",
+		"avatar": "./images/7.jpg",
+		"score": "100000"
+	}
+]

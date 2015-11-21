@@ -18,13 +18,6 @@ Temporary Items
 # ignore node dependency directories (used by gulp)
 /node_modules
 
-# ignore files & folders
-/branch
-/dist
-/assets/libs
-/assets/cursor
-/index.js
-
 # ignore log files and databases
 *.log
 *.sql
